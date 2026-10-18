@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.streamlit/secrets.toml
+models/*.joblib
+models/metadata.json
+reports/metrics/*.csv
+reports/metrics/*.json
+reports/figures/*.png
+reports/shap/*.csv
+reports/shap/*.png
+reports/passenger_reports/*
+!reports/**/.gitkeep
